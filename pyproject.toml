@@ -1,0 +1,22 @@
+[build-system]
+requires = ["poetry"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry]
+name = "mypa"
+version = "0.1.0"
+description = "My Package Manager"
+authors = ["vaaaaanquish <shunsuke-kawai@vaaaaanquish.jp>"]
+
+[tool.poetry.scripts]
+mypa = "mypa.main:cli"
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+click = "*"
+tomlkit = "*"
+virtualenv = "*"
+resolvelib = "==1.0.1"
+requests = "*"
+packaging = "*"
+build = "*"

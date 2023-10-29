@@ -1,0 +1,5 @@
+dist
+example_package/mypa.lock
+example_package/.mypaenv
+example_package/build
+*.egg-info

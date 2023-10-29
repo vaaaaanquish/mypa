@@ -1,0 +1,19 @@
+[build-system]
+requires = ["wheel", "setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "example_package"
+version = "0.1.0"
+description = "Example Package for mypa"
+requires-python = ">=3.8"
+dependencies = [
+    "requests>=2.29.0",
+    "urllib3<2.0.0"
+]
+
+[tool.mypa.env.python]
+version = "3.11"
+
+[tool.setuptools]
+package-dir = {"example_package" = "src"}
