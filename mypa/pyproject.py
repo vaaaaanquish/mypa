@@ -1,6 +1,7 @@
 from platform import python_version
 
 from packaging.requirements import Requirement
+from packaging.specifiers import SpecifierSet
 from tomlkit.toml_file import TOMLFile
 
 
